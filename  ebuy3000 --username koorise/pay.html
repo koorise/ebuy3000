@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>eBuy-pay</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/center_pay.css" rel="stylesheet" type="text/css" />
+<link href="style/right.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="javascript/menu.js"></script>
+<script type="text/javascript" language="javascript">
+//var defaultMenu="menu_abou";
+</script>
+</head>
+
+<body onload="menuHover(null,false)">
+	<div id="toppart">
+		<div id="logo"><img src="images/logo.gif" width="293" height="107" /></div>
+		<div id="nav">
+			<div id="visitor"><a href="#">visitor</a></div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" id="menu_home" onmouseover="menuHover(this,true)" onmouseout="menuHover(this,false)">Home</a></li>
+					<li><a href="Products.html" id="menu_prod" onmouseover="menuHover(this,true)" onmouseout="menuHover(this,false)">Products <span style="font-family:Webdings;font-size:1">6</span></a> </li>
+					<li><a href="AboutUs.html" id="menu_abou" onmouseover="menuHover(this,true)" onmouseout="menuHover(this,false)">About Us</a></li>
+					<li><a href="TradePolicy.html" id="menu_cont" onmouseover="menuHover(this,true)" onmouseout="menuHover(this,false)">Trade Policy</a></li>
+					<li><a href="Currency.html" id="menu_curr" onmouseover="menuHover(this,true)" onmouseout="menuHover(this,false)">Currency</a></li>
+				</ul>
+		  	</div>
+			<div id="search">
+				<form>
+					<input type="text" size="24" class="input"/>
+					<input type="image" src="images/btn_search.gif" align="absmiddle" class="btn" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div id="mcenter">
+			<div id="tit">
+				<div id="left"><img src="images/hot_left.gif" width="5" height="33" /></div>
+				<div id="middle"><a href="#">Checkout</a></div>
+				<div id="right"><img src="images/hot_right.gif" width="5" height="33" /></div>
+			</div>
+			<div id="content">
+		  		<div class="step">Step 1. Your Address</div>
+				<div class="selector">
+					<div style="height:30px;">
+					  
+					  <input type="radio" name="radiobutton" value="radiobutton" checked="checked" onclick="document.getElementById('addrinfo').style.display='none';"/>
+					  Use my register address 
+					</div>
+					<div class="box">if you select this option ,we will send your parcel according to your register information</div>
+					<div style="height:30px;margin-top:10px;">					  
+					  <input type="radio" name="radiobutton" value="radiobutton" onclick="document.getElementById('addrinfo').style.display='';"/>
+					  write down my address Now
+					</div>
+					
+					<div id="addrinfo" style="display:none">
+					<table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+					  <tr>
+						<td colspan="2"><span class="blue">*</span>Indicates required field</td>
+					  </tr>
+					  <tr>
+						<td width="217">First name<span class="blue">*</span></td>
+						<td width="377">Last name<span class="blue">*</span></td>
+					  </tr>
+					  <tr>
+						<td><input name="textfield" type="text" size="30" /></td>
+						<td><input name="textfield2" type="text" size="30" /></td>
+					  </tr>
+					  <tr>
+						<td colspan="2">Email address<span class="blue">*</span></td>
+					  </tr>
+					  <tr>
+						<td><input name="textfield9" type="text" size="30" /></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td>MSN<span class="blue">*</span></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td><input name="textfield10" type="text" size="30" /></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td>Address<span class="blue">*</span><br /></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td><input name="textfield102" type="text" size="30" /></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td>Postalcode<span class="blue">*</span></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td><input name="textfield103" type="text" size="30" /></td>
+						<td>&nbsp;</td>
+					  </tr>
+					</table>				
+					
+					<br />
+				</div>
+				</div>
+		    	<div class="step">Step 2. Deliver Way</div>
+				<div class="selector">
+				  <table width="604" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="40" align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td width="240" height="60"><img src="images/postal/2.gif" width="119" /></td>
+                        <td width="40" align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td><img src="images/postal/5.gif" width="119" /></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td height="60"><img src="images/postal/1.gif" width="119" /></td>
+                        <td align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td><img src="images/postal/3.gif" width="119" /></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td height="60"><img src="images/postal/4.gif" width="119"  /></td>
+                        <td align="center">&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table>
+				</div>
+				<div class="step">Step 3. Pay Way</div>
+				<div class="selector">
+				  <table width="604" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="40" colspan="4" align="left" class="box" style="font-size:12px;"><img src="images/dot8.gif" width="22" height="22" align="absmiddle" /> Payment via western Union、MoneyGram or Bank transfer will get 10% Discount .</td>
+                      </tr>
+                      <tr>
+                        <td width="40" align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td width="240" height="60"><img src="images/bank/bankofchina.gif" width="118" height="54" /></td>
+                        <td width="40" align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td><img src="images/bank/visa.gif" width="112" height="54" /></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td height="60"><img src="images/bank/westernunion.gif" width="130" height="54" /></td>
+                        <td align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td><img src="images/bank/paypal.gif" width="115" height="54" /></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><input type="radio" name="radiobutton" value="radiobutton" /></td>
+                        <td height="60"><img src="images/bank/moneygram.gif" width="130" height="54" /></td>
+                        <td align="center">&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td align="center">&nbsp;</td>
+                        <td height="80" align="center"><input type="image" name="imageField" src="images/btn_chekcout.gif" /></td>
+                        <td align="center">&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="footpart">		
+		<p class="blue">Tel:+86-021-XXXXXXXX   Msn:ebuy2000@hotmail.com</p>
+		<p>Trust ebuy to geive you the cheapest Blank Discs and much more... </p>
+		<p>Address:New Fount Building 112, Janchuan Road, Minghang District, Shanghai, P.R.China</p>
+		<p>images and text copyright&copy;  ebuy2000.com Serve</p>
+	</div>
+
+</body>
+</html>

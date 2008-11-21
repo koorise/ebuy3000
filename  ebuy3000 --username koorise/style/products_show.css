@@ -1,0 +1,22 @@
+/* CSS Document */		
+	/* 中间部分 */
+	#mcenter{width:613px;float:left;}
+		#hot_tit{ height:33px; width:604px;float:left; background-image:url(../images/hot_middle.gif);margin-bottom:8px;}
+			#hot_left{ width:5px;float:left;}
+			#hot_middle{ width:300px;float:left;line-height:33px;text-indent:24px;font-weight:bold;color:#FFFFFF; background-image:url(../images/dot4.gif); background-repeat:no-repeat; background-position:6px 11px;}
+				#hot_middle a{color:#FFFFFF;font-size:12px; text-decoration:none;}
+			#hot_right{width:5px; float:right;}
+		#prod_list{ width:584px;padding:10px;border:1px solid #A1CDDF; height:auto; float:left;}
+			#prod{width:580px;height:240px;border-right:1px dashed #A1CDDF;float:left; text-align:left;line-height:20px;}				
+				#prod #prodimg{ width:260px;float:left;margin-top:10px;}
+				#prod #prodcomm{ width:300px;float:left;margin-top:50px;font-size:12px;}
+				#prod #prodcomm .name{font-size:14px; font-weight:bold;line-height:40px;}
+				#prod #prodcomm .memb{color:#F38400;}
+			#desc_title{ text-align:left; border-bottom:2px solid #50C87F;}
+			#description{ padding:10px;font-size:12px;line-height:20px;}
+			.dashedline{border-bottom:1px dashed #A1CDDF;width:584px;line-height:1px;height:1px;margin-top:16px;margin-bottom:16px;float:left;}
+		#pay{ width:100%;float:left;height:54px;padding-top:8px;}
+			#pay img{ float:left;margin:0px;}
+			
+
+	

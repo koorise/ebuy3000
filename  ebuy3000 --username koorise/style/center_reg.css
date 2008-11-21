@@ -1,0 +1,17 @@
+/* CSS Document */		
+	/* 中间部分 */
+	
+	#mcenter{width:730px;margin:10px auto; }
+		#regimg{height:30px;margin-top:10px;}
+		#tit{ height:35px; width:730px; background-image:url(../images/reg_title.gif);background-repeat:no-repeat; font-size:12px; color:#FFF;line-height:35px;text-indent:24px;}
+		#mid{ width:730px; background-image:url(../images/reg_middle.gif); overflow-x:hidden; background-repeat:repeat-y;}
+			#notes{border:1px dashed #EDB33F; background-color:#FFF9DB;margin:30px auto; width:650px;font-size:12px;line-height:24px;padding:10px;}
+		#mid table{ width:604px;margin:0px auto;}
+			td{line-height:24px;font-size:12px;}
+			#cent{ background-image:url(../images/reg_center.gif); height:34px;font-size:12px; color:#FFFFFF; text-indent:24px;line-height:34px;}
+		#bot{ background-image:url(../images/reg_bottom.gif); background-repeat:no-repeat;}
+			#content .dashed{border-bottom: 1px dashed #B8B8B8;}
+	h1{font-weight:bold;font-size:12px;color:#FF6600;line-height:40px;}
+			
+
+	

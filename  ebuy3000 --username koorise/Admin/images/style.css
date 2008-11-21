@@ -1,0 +1,17 @@
+*{ font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;text-decoration: none;}
+body{width:1003px;margin:0px auto;}
+#top{ width:1003px; height:115px; float:left;}
+#main{width:1003px;clear:both; background-color:#C3F0FF;}
+#left{ width:200px;float:left;height:auto;}
+	.leftop{ height:30px;line-height:30px; background-color:#1594C8; text-indent:10px; margin-bottom:15px;}
+	.menuitem{ background-image:url(maddage-menu.gif); width:163px; height:28px; margin:6px auto; line-height:28px; text-indent:40px;color:#FFFFFF;font-weight:bold;}
+	.menuitem a{color:#FFFFFF;}
+	.menuitem a:hover{color:#FF0000;}
+	
+#right{ width:803px;float:right; background-color:#FFF;}
+	.rigtop{ height:30px;line-height:30px; background-color:#15A9C8; text-indent:10px;margin-bottom:10px;}
+	.cent{padding:10px;}
+		.pannel{ width:760px;margin:0px auto;}
+			.pannel .tit{ background-image:url(massage-titlbk.gif); background-repeat:repeat-x; height:33px; line-height:33px; border:1px solid #A2E3F8; border-bottom:none;font-weight:bold;color:#005689; text-indent:20px;}
+			.pannel .mbody{ border:1px solid #A2E3F8; border-top:none;_height:200px;min-height:200px;padding:20px;}
+#bott{width:100%;float:left;height:75px; background-color:#005689; color:#FFFFFF; text-align:center; line-height:75px;}
