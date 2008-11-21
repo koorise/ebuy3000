@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>无标题页</title>
+    <link href="images/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="top"><img src="images/massage-logo.gif" width="1003" height="115" /></div>
+	<div id="main">
+		<div id="left">
+			<div class="leftop">
+                <asp:Label ID="lbladmin" runat="server" Text=""></asp:Label></div>
+			<div class="menu">
+				<div class="menuitem">
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Admin/userList.aspx" runat="server">用户管理</asp:HyperLink></div>
+				<div class="menuitem">
+                    <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Admin/ProductList.aspx" runat="server">商品管理</asp:HyperLink></div>
+				<div class="menuitem">订单管理</div>
+				<div class="menuitem">
+                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Admin/Catalog.aspx" runat="server">商品类别管理</asp:HyperLink></div>
+				<div class="menuitem">
+                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Admin/AdminInfo.aspx" runat="server">后台帐户管理</asp:HyperLink></div>
+			</div>
+		</div>
+		<div id="right">
+			<div class="rigtop"></div>
+			<div class="cent">
+				<div class="pannel">
+					<div class="tit">content</div>
+					<div class="mbody">
+
+					    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="bott">
+	&copy; copyright ebuy2000.com Serve
+	</div>
+    </form>
+</body>
+</html>

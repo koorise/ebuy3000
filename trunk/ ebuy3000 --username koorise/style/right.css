@@ -1,0 +1,35 @@
+/* CSS Document */
+
+	/* ”“≤‡≤ø∑÷*/
+	#mright{ width:185px;float:left;height:auto;}
+	
+		/* Login or Register */
+		#login{ width:185px;float:left; background-image:url(../images/login_middle.gif); background-repeat:repeat-y;margin-bottom:8px;}
+			#login .titl{ width:185px; height:32px;float:left;background-image:url(../images/login_title.gif);font-size:12px;font-weight:bold;color:#FFFFFF;line-height:32px;text-indent:10px;}
+			#login .cont{ width:185px;float:left; line-height:24px;}
+				#login .cont .input{border:1px solid #CDCDCD;background-color:#FFFFFF;height:18px;}	
+				#login .cont a{color:#008532;}				
+			#login .bott{ width:185px;height:5px;float:left;}
+			
+		/* New Order Form */	
+		#neworder{ width:185px;float:left; background-image:url(../images/login_middle.gif); background-repeat:repeat-y;margin-bottom:8px;}
+			#neworder .titl{ width:185px; height:32px;float:left;background-image:url(../images/login_title.gif);font-size:12px;font-weight:bold;color:#FFFFFF;line-height:32px;text-indent:10px;}
+			#neworder .cont{ width:185px;float:left; line-height:24px;}
+				#neworder .cont p{line-height:18px;margin:8px;margin-top:10px; word-break:break-all;}
+				#neworder .cont a{color:#000000; text-decoration:none;}
+			#neworder .bott{ width:185px;height:5px;float:left;}
+			
+		/* Already Order Form */
+		#alreadyorder{ width:187px;float:left; background-image:url(../images/already_middle.gif); background-repeat:repeat-y;margin-bottom:8px;}
+			#alreadyorder .titl{ width:187px; height:32px;float:left;background-image:url(../images/already_title.gif);font-size:12px;font-weight:bold;color:#FFFFFF;line-height:32px;text-indent:10px;}
+			#alreadyorder .cont{ width:187px;float:left; line-height:24px;}
+				#alreadyorder .cont p{line-height:18px;margin:8px;margin-top:10px; word-break:break-all;}
+				#alreadyorder .cont a{color:#000000; text-decoration:none;}
+			#alreadyorder .bott{ width:187px;height:5px;float:left;}
+			
+		/* Postal Delivery */
+		#postal{ width:187px;float:left; background-image:url(../images/postal_middle.gif); background-repeat:repeat-y;margin-bottom:8px;}
+			#postal .titl{ width:187px; height:32px;float:left;background-image:url(../images/postal_title.gif);font-size:12px;font-weight:bold;color:#FFFFFF;line-height:32px;text-indent:10px;}
+			#postal .cont{ width:187px;float:left; line-height:24px;padding-top:10px;padding-bottom:10px;}
+				#postal .cont img{margin:4px; border:1px solid #E0DECF;}
+			#postal .bott{ width:187px;height:5px;float:left;}

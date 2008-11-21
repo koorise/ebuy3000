@@ -1,0 +1,16 @@
+/* CSS Document */
+
+	/* ×ó²à²¿·Ö */
+	#mleft{ width:174px;float:left;}
+		#cat{width:166px;float:left;font-size:11px;font-weight:bold;clear:both;height:auto; }
+			#cat ul{list-style:none;background-color:#3BC1E5;padding-left:8px;padding-top:15px;padding-bottom:15px;background-image:url(../images/cat_bott.gif); background-repeat:no-repeat; background-position:bottom;}
+			#cat li{background-image:url(../images/cat_t_bg.gif);background-repeat:no-repeat;width:150px;line-height:30px;margin-top:4px;margin-bottom:4px;overflow-x:hidden;text-indent:10px;color:#007299;}
+			#cat li a{color:#007299; text-decoration:none;}
+			#cat .out{height:30px;}
+				#cat .out ul{display:none;}
+			#cat .on{height:auto;color:#07299;}
+				#cat .on ul{display:block;padding-top:5px;padding-bottom:5px;padding-left:0px;width:140px;}
+				#cat .on li{line-height:20px;height:20px;background-image:none;color:#FFF;padding:0px; background-image:url(../images/dot3.gif); background-repeat:no-repeat;background-position:10px 8px;text-indent:22px;border-bottom:1px dashed #FFFFFF;}
+				#cat .on li a{color:#FFF; text-decoration:none;}
+		#brand{width:166px;float:left;}
+		#brand ul{list-style:none;margin-top:20px;}
